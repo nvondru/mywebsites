@@ -1,0 +1,40 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+     
+}
+
+body{
+    background-color: #F5F5F5;
+}
+main > div{
+    width: 60%;
+    margin-left: 20%;
+    background-color: white;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+    padding: 0 4em 2em 4em;
+}
+main{
+    background-image: url('images/see.jpg');
+    padding-top: 6%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#content{
+    color: darkslategray;
+}
+header div{
+    
+    background-color: #3F51B5;
+}
+header li{
+    
+    list-style-type: none;
+}
+.hide{
+    display: none;
+}
