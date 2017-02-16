@@ -1,7 +1,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
-    box-sizing: border-box;
+    
     font-family: Roboto;
      
 }
@@ -27,14 +27,29 @@ main{
 #content{
     color: darkslategray;
 }
-header div{
-    
-    background-color: #3F51B5;
-}
+
+
 header li{
-    
+    display: inline-block;
     list-style-type: none;
+    color: white;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 0.5em;
+
+}
+#floatright{
+    float: right;
+}
+#floatleft{
+    float: left;
+    width: 20%;
 }
 .hide{
     display: none;
+}
+header{
+    background-color: #3F51B5;
+    height: 50px;
+    
 }
